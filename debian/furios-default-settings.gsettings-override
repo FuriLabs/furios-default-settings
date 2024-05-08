@@ -14,10 +14,11 @@ app-filter-mode=@as []
 autoload-plugins=['ofono', 'sip']
 
 [org.gnome.desktop.background]
-picture-uri='file:///usr/share/backgrounds/droidian/droidian.xml'
+picture-uri='file:///usr/share/backgrounds/furilabs/furilabs.xml'
 
 [org.gnome.desktop.interface]
 gtk-theme='adw-gtk3'
+show-battery-percentage = true
 
 [org.gnome.settings-daemon.plugins.wwan]
 unlock-sim=true
@@ -26,5 +27,6 @@ unlock-sim=true
 click-policy='single'
 
 [org.gnome.settings-daemon.plugins.power]
+ambient-enabled = false
 sleep-inactive-ac-type = 'nothing'
 sleep-inactive-battery-type = 'nothing'
