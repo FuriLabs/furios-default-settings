@@ -19,6 +19,7 @@ picture-uri='file:///usr/share/backgrounds/furilabs/furilabs.xml'
 [org.gnome.desktop.interface]
 gtk-theme='adw-gtk3'
 show-battery-percentage = true
+document-font-name = 'Cantarell 11'
 
 [org.gnome.settings-daemon.plugins.wwan]
 unlock-sim=true
@@ -30,3 +31,9 @@ click-policy='single'
 ambient-enabled = false
 sleep-inactive-ac-type = 'nothing'
 sleep-inactive-battery-type = 'nothing'
+
+[org.gnome.desktop.wm.preferences]
+titlebar-font = 'Cantarell Bold 11'
+
+[org.gnome.desktop.interface]
+font-name = 'Cantarell 11'
