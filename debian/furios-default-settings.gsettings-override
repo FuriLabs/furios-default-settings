@@ -37,3 +37,6 @@ titlebar-font = 'Cantarell Bold 11'
 
 [org.gnome.desktop.interface]
 font-name = 'Cantarell 11'
+
+[org.gnome.system.location]
+enabled = true
