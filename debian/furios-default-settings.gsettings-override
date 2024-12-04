@@ -6,6 +6,8 @@
 #  - Settings
 favorites=['org.gnome.Calls.desktop', 'sm.puri.Chatty.desktop', 'firefox.desktop', 'org.gnome.Settings.desktop']
 
+[sm.puri.phosh.plugins]
+quick-settings = ['location-privacy-quick-setting', 'mobile-data-quick-setting', 'microphone-privacy-quick-setting']
 # Disable app filtering for now
 app-filter-mode=@as []
 
