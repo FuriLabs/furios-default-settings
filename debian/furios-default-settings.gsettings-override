@@ -43,3 +43,6 @@ font-name = 'Cantarell 11'
 
 [org.gnome.system.location]
 enabled = true
+
+[org.gtk.Settings.Purism]
+is-phone=true
