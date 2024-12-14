@@ -46,3 +46,7 @@ enabled = true
 
 [org.gtk.Settings.Purism]
 is-phone=true
+
+[org.gnome.software]
+first-run = false
+download-updates = false
