@@ -4,31 +4,31 @@
 #  - Messages
 #  - Firefox
 #  - Settings
-favorites=['org.gnome.Calls.desktop', 'sm.puri.Chatty.desktop', 'firefox.desktop', 'org.gnome.Settings.desktop']
+favorites = ['org.gnome.Calls.desktop', 'sm.puri.Chatty.desktop', 'firefox.desktop', 'org.gnome.Settings.desktop']
 
 # Disable app filtering for now
-app-filter-mode=@as []
+app-filter-mode = @as []
 
 [sm.puri.phosh.plugins]
 quick-settings = ['location-privacy-quick-setting', 'mobile-data-quick-setting', 'microphone-privacy-quick-setting']
 
 [org.gnome.Calls]
 # Autoload ofono and sip plugins
-autoload-plugins=['ofono', 'sip']
+autoload-plugins = ['ofono', 'sip']
 
 [org.gnome.desktop.background]
-picture-uri='file:///usr/share/backgrounds/furilabs/furilabs.xml'
+picture-uri = 'file:///usr/share/backgrounds/furilabs/furilabs.xml'
 
 [org.gnome.desktop.interface]
-gtk-theme='adw-gtk3'
+gtk-theme = 'adw-gtk3'
 show-battery-percentage = true
 document-font-name = 'Cantarell 11'
 
 [org.gnome.settings-daemon.plugins.wwan]
-unlock-sim=true
+unlock-sim = true
 
 [org.gnome.nautilus.preferences]
-click-policy='single'
+click-policy = 'single'
 
 [org.gnome.settings-daemon.plugins.power]
 ambient-enabled = false
@@ -45,7 +45,7 @@ font-name = 'Cantarell 11'
 enabled = true
 
 [org.gtk.Settings.Purism]
-is-phone=true
+is-phone = true
 
 [org.gnome.software]
 first-run = false
