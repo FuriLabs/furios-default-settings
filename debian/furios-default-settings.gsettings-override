@@ -50,3 +50,6 @@ is-phone = true
 [org.gnome.software]
 first-run = false
 download-updates = false
+
+[org.gnome.desktop.datetime]
+automatic-timezone = true
