@@ -17,7 +17,8 @@ quick-settings = ['location-privacy-quick-setting', 'mobile-data-quick-setting',
 autoload-plugins = ['ofono', 'sip']
 
 [org.gnome.desktop.background]
-picture-uri = 'file:///usr/share/backgrounds/furilabs/furilabs.xml'
+picture-uri = 'file:///usr/share/backgrounds/gnome/blobs-l.svg'
+picture-uri-dark = 'file:///usr/share/backgrounds/gnome/blobs-d.svg'
 
 [org.gnome.desktop.interface]
 gtk-theme = 'adw-gtk3'
@@ -53,3 +54,6 @@ download-updates = false
 
 [org.gnome.desktop.datetime]
 automatic-timezone = true
+
+[org.gnome.desktop.screensaver]
+picture-options = 'zoom'
