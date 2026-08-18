@@ -55,5 +55,8 @@ download-updates = false
 [org.gnome.desktop.datetime]
 automatic-timezone = true
 
-[org.gnome.desktop.screensaver]
-picture-options = 'zoom'
+[org.gnome.desktop.screensaver:Phosh]
+picture-options = 'scaled'
+
+[org.gnome.desktop.background:Phosh]
+picture-options = 'scaled'
